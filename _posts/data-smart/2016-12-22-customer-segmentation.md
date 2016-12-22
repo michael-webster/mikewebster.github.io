@@ -17,8 +17,9 @@ data. First, you pick how many clusters you want then the algorithm assigns your
 data to a cluster based on the best fit. Here, best fist means the smallest
 average distance between a data point and the center of it's cluster. Some
 *optimization* algorithm moves the centers around until it finds one that
-minimizes the average distance.  K-means can't tell us what the clusters mean,
-but it can find them.
+minimizes the average distance.
+
+K-means can't tell us what the clusters mean, but it can find them.
 
 ## Finding the right K
 You have to decide the number of clusters when you start, but you need a way to
@@ -33,5 +34,5 @@ divide by the larger of the two.
 
 ## Problems with k-means
 K-means has a few issues:
-	* It struggles with sparse data
-	* You can get "weird" clusters that are hard to explain
+* It struggles with sparse data
+* You can get "weird" clusters that are hard to explain
