@@ -34,5 +34,6 @@ divide by the larger of the two.
 
 ## Problems with k-means
 K-means has a few issues:
+
 * It struggles with sparse data
 * You can get "weird" clusters that are hard to explain
